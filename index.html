@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste para o GitHub Pages</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(45deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url('https://via.placeholder.com/1920x1080/3A3A3A/FFFFFF?text=Fundo+Esfumaçado') center center no-repeat;
+            background-size: cover;
+            color: #fff;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .container {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 50px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+
+        .cta-btn {
+            background-color: #ff6a00;
+            color: white;
+            padding: 15px 25px;
+            font-size: 1.1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-btn:hover {
+            background-color: #ff4f00;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 20px;
+            width: 100%;
+            font-size: 0.8rem;
+        }
+
+        footer p {
+            color: rgba(255, 255, 255, 0.7);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Bem-vindo à minha página!</h1>
+            <p>Explore um incrível design com um toque esfumaçado.</p>
+        </header>
+
+        <footer>
+            <p>&copy; 2025 Todos os direitos reservados.</p>
+        </footer>
+    </div>
+
+    <script>
+        const ctaButton = document.getElementById('cta-button');
+        ctaButton.addEventListener('click', () => {
+            alert('Você clicou no botão "Saiba Mais"! Este é um teste para a landing page.');
+        });
+    </script>
+</body>
+</html>
